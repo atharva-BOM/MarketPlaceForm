@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TheBigFatIndian</title>
+</head>
+<body>
+  <!--To create a form-->
+  <form>
+    <!--To input addresses-->
+    <label for="address">Address</label>
+    <input type="text" name="address" id="address" placeholder="Address" size="30px" maxlength="100">
+    <br />
+    <!--To input postcode-->
+    <label for="postcode">Postcode</label>
+    <input type="text" name="Postcode"
+    id="postcode" placeholder="Postcode" size="'30px" maxlength="100">
+    <br />
+    <!--To input city-->
+    <label for="city">Postcode</label>
+    <input type="text" name="city"
+    id="city" placeholder="City" size="'30px" maxlength="100">
+    <br />
+    <p>Choose your desired shipping method</p>
+    <!--To create a dropdown menu-->
+    <select name="Shipping" id="Shipping">
+      <!--To create options-->
+      <option value="Free Saver Shipping">Free Saver Shipping</option>
+      <option value="Saver Shipping">
+        Saver Shipping
+      </option>
+      <option value="Normal Shipping">
+        Normal Shipping
+      </option>
+    </select>
+    <p>Choose your suitable payment method</p>
+    <!--To use radio buttons-->
+    <label>Paytm<input type="radio" name="Payments" value="Paytm"></label>
+    <label>GooglePay<input type="radio" name="Payments" value="GooglePay"></label>
+    <label>Debit Card<input type="radio" name="Payments" value="DebitCard"></label>
+    <label>Cash<input type="radio" name="Payments" value="CreditCard"></label>
+    <br />
+    <!--To use text area for comments-->
+    <label for="comments">Comments:</label>
+    <textarea rows="4"cols="40" name="comments"id="comments"></textarea>
+    <br />
+    <!--To use CheckBoxes-->
+    <label>Sign me up for updates<input type="checkbox" name="Email Updates" checked="checked"></label>
+    <br />
+    <label>Save payment details<input type="checkbox" name="Save payment details" checked="checked"></label>
+    <br />
+    <!--To add the simple submit button-->
+    <input type="submit">
+  </form>
+</body>
+</html>
